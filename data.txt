@@ -1,0 +1,150 @@
+Where
+/bin
+User Kommando Binaries
+/etc
+Konfigurationsdateien fürs System
+/sbin
+Essenzielle System Binaries
+/usr
+Nutzer Applikations Dateien und Binaries
+/usr/bin
+Nutzer Kommandos
+/usr/include
+C include Dateien
+/usr/lib
+obj, bin, lib Dateien für Coding und Pakete
+/usr/local
+lokale Software
+/usr/share
+static sharable egal für welches Architektur z.b. man page
+/var
+variable data files
+/var/cache
+Applikations Cache Data
+/var/lib
+Daten manipuliert in der Runtime von Programmen
+/var/lock
+Lock Dateien um genutze Resourcen zu sehen
+/var/opt
+Variable Data für installierte Pakete
+/var/spool
+Aufgaben die warten verarbeitet zu werden
+/var/tmp
+Temporäre Dateien die gespeichert werden zwischen reboots
+/dev
+Gerätedateien
+/home
+Nutzer /home Verzeichnisse
+/lib
+Libraries und Kernel Module
+/mnt
+Mount Dateien für temporäre Filesysteme
+/opt
+optionale Software Applikationen
+/proc
+Prozess und Kernel Informationsdateien
+/root
+Home Verzeichnis für Root
+/boot
+Bootloader Dateien
+/tmp
+Temporäre Dateien
+/sys
+Systemshardware und Kernelinformationen
+/run
+Informationen seit dem letzen boot
+/lib/modules
+die Kernel Versionsnummer (/l../..)
+/usr/src
+die Kernel Versionsnummer (/u../..)
+/proc/modules
+zur Zeit laufende Kernel Module
+/proc/interrupts
+die im System verwendeten Interrups
+/usr/lib/systemd/system
+die Units/Targets von systemd
+/proc/ioports
+verwendete I/O-Adressen
+/proc/dma
+Geräte die DMA-Kanäle verwenden
+/proc/bus/pci
+Informationen über den PCI Bus (neue Version)
+/etc/yum.conf
+die Hauptkonfigurationsdatei von yum
+/proc/scsi
+Information über SCSI-Geräte
+/proc/sys/kernel
+Konfigurationsinformationen über den Kernel
+/etc/ld.so.conf
+alle Verzeichnisse in denen sich dynamische Libraries befinden
+/var/cache/apt
+alle Quellen wenn man ein Programm mit apt-get installiert
+What
+insmod
+Module in den Kernel laden
+rmmod
+Module aus dem Kernel zu entladen
+modprobe
+Module zu laden/entladen, Abhängigkeiten aufzuzeigen
+lspci
+PCI Geräte aufzulisten
+lsusb
+USB Geräte aufzulisten
+lsmod
+Kernel Module aufzulisten
+runlevel
+das Runlevel anzuzeigen
+init
+das Runlevel zu wechseln ohne systemctl
+shutdown
+das System herunterzufahren
+wall
+eine Rundsendenachricht abzusenden
+systemctl isolate poweroff.target
+das System herunterzufahren mithilfe von Systemctl
+systemctl start
+einen Service mit systemctl zu starten
+systemctl stop
+einen Service mit systemctl zu stoppen
+systemctl enable
+einen Service beim Systemstart automatisch zu laden mithilfe von systemctl
+grub-install
+grub auf einem am System angeschlossenen Datenträger zu installieren
+ldd
+die Libraries zu sehen von dem ein Programm abhängt
+dpkg -i test.deb
+das Paket test auf einem debian basiertem System zu installieren
+dpkg -P
+ein Paket auf einem debian System restlos zu löschen
+dpkg -L
+die Dateien anzuzeigen die ein Paket installiert hat (Debian)
+dpkg -r
+ein Paket zu entfernen (Debian)
+dpkg-reconfigure
+ein installiertes Paket neu zu knofigurieren (Debian)
+apt-get clean
+die Cache von apt-get zu bereinigen
+apt-cache search
+die Cache von apt-get nach Paketen zu durchsuchen
+apt-get upgrade
+alle installieren Pakete zu aktualisieren mit apt-get
+apt-get remove fortune
+das Paket fortune mit apt zu entfernen
+apt-get update
+alle verfügbaren Pakete zu aktualisieren mit apt
+rpm -e
+ein Paket mit rpm zu entfernen
+rpm -F
+ein vorhandes Paket mit rpm zu aktualisieren
+rpm -U
+ein Paket mit rpm zu aktualisieren oder installieren falls nicht vorhanden
+rpm -q
+zu gucken ob ein Paket installiert ist mit rpm
+rpm -qf
+zu gucken zu welchem Paket eine bestimme Datei gehört mit rpm
+rpm -qR
+alle Abhängigkeiten zu anderen Paketen anzuzeigen mit rpm
+rpm -ql
+alle in einem Paket enthaltenden Dateien aufzuzeigen mit rpm
+
+
