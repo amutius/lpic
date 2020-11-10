@@ -1,5 +1,5 @@
 # LPIC Training
 
-- contains Training program and data of questions + answers
+- Enthält Trainingsdaten für die LPIC Prüfung
 - writtin in golang
-- put no effort into it >.>
+- no effort
